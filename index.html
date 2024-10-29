@@ -7,47 +7,81 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <a href="#home">Главная</a>
-          <a href="#about">О нас</a>
-          <a href="#services">Услуги</a>
-          <a href="#contacts">Контакты</a>
-        </nav>
-    </header>
-    <section class="hero">
-        <div>
-          <h1>Поддержите наше дело</h1>
-          <p>Мы помогаем детям и семьям, оказавшимся в трудной ситуации</p>
+  <header>
+    <div class="container">
+      <a href="#home" class="logo">Благотворительный фонд</a>
+      <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Помогите изменить будущее</h1>
+      <p>Наш фонд помогает детям и семьям, оказавшимся в трудных ситуациях.</p>
+      <a href="#about" class="hero-button">Узнать больше</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-text">
+        <h2>О нас</h2>
+        <p>С 2010 года наш фонд оказывает поддержку детям, молодежи и семьям, которые нуждаются в помощи. Мы предоставляем поддержку, организуем образовательные и культурные мероприятия, направленные на повышение уровня жизни.</p>
+        <ul>
+          <li>Более 5000 детей получили помощь</li>
+          <li>250 образовательных программ</li>
+          <li>Партнерства с 30+ медицинскими учреждениями</li>
+        </ul>
+      </div>
+      <img src="img/about.jpg" alt="Фотография нашей команды">
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Наши услуги</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/service1.jpg" alt="Социальная поддержка">
+          <h3>Социальная поддержка</h3>
+          <p>Мы поддерживаем семьи, оказавшиеся в трудной жизненной ситуации, помогая им с необходимыми ресурсами и моральной поддержкой.</p>
         </div>
-    </section>
-    <section class="about" id="about">
-        <div class="about-text">
-          <h2>О нас</h2>
-          <p>Наш фонд помогает нуждающимся детям и семьям с 2010 года.</p>
+        <div class="card">
+          <img src="img/service2.jpg" alt="Образовательные программы">
+          <h3>Образовательные программы</h3>
+          <p>Организуем тренинги и занятия, направленные на развитие детей и молодежи, помогаем адаптироваться в обществе.</p>
         </div>
-        <img src="img\about.jpg" alt="Фотография команды фонда">
-    </section>
-    <section class="services" id="services">
-        <h2>Наши Услуги</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Помощь детям</h3>
-            <p>Мы поддерживаем детей из малообеспеченных семей.</p>
-          </div>
-          <div class="card">
-            <h3>Образовательные программы</h3>
-            <p>Обеспечиваем доступ к качественному образованию.</p>
-          </div>
-          <div class="card">
-            <h3>Медицинская помощь</h3>
-            <p>Помогаем с лечением тяжелобольных детей.</p>
-          </div>
+        <div class="card">
+          <img src="img/service3.jpg" alt="Медицинская помощь">
+          <h3>Медицинская помощь</h3>
+          <p>Содействуем в получении своевременной медицинской помощи и поддерживаем программы по улучшению здоровья.</p>
         </div>
-      </section>
-      <footer>
-        <p>© 2024 Благотворительный фонд. Все права защищены.</p>
-      </footer>
-      
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Наши проекты</h2>
+      <p>Ниже приведены некоторые из наших успешных проектов:</p>
+      <ul class="project-list">
+        <li>Помощь в лечении детей с редкими заболеваниями</li>
+        <li>Программа поддержки матерей-одиночек</li>
+        <li>Мобильные клиники в отдаленных районах</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Благотворительный фонд. Все права защищены.</p>
+    </div>
+  </footer>
 </body>
 </html>
